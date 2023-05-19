@@ -115,13 +115,24 @@ a:visited {
   }
 }
 
+.centeredText {
+  text-align: center;
+}
+
 .myDiv {
   justify-content: space-evenly;
+  align-items: center;
   row-gap: 10px;
   flex-direction: column;
   flex-wrap: wrap;
   display: flex;
   font-size: 30px;
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slika{
